@@ -4,7 +4,7 @@ const ingredientRouter = require('./routes/ingredients.routes');
 const fullRecipesRouter = require('./routes/fullRecipes.routes');
 const randomRouter = require('./routes/randomRecipe.routes');
 const app = express();
-const port = process.env.PORT || 3000;
+
 
 app.use(express.json());
 

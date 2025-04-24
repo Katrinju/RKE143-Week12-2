@@ -1,3 +1,4 @@
+const port = process.env.PORT || 3000;
 const dotenv = require('dotenv');
 dotenv.config();
 const { Pool } = require('pg');
