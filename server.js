@@ -18,5 +18,5 @@ app.use('/random', randomRouter);
 // });
 
 app.listen(port, () => {
-    console.log(`Server is running on Port ${port}`)
-  })
+    console.log(`Server is running on Port ${port}`);
+  });
